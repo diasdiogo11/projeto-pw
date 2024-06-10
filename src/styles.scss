@@ -1,1 +1,99 @@
-/* You can add global styles to this file, and also import other style files */
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-tap-highlight-color: transparent;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: system-ui, sans-serif;
+}
+
+a {
+	display: inline-block;
+	color: inherit;
+	text-decoration: none;
+}
+
+p {
+	line-height: 1.5;
+}
+
+img {
+	display: inline-block;
+	max-width: 100%;
+}
+
+ul {
+	list-style: none;
+}
+
+input,
+textarea,
+button,
+select,
+option {
+	border: 0;
+	border-radius: 0;
+	outline: 0;
+	box-shadow: none;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	color: inherit;
+	background-color: inherit;
+}
+
+textarea {
+	resize: vertical;
+}
+
+button {
+	cursor: pointer;
+}
+
+.container {
+	margin-inline: auto;
+	padding-inline: 60px;
+	max-width: 1600px;
+
+	@media (max-width: 1024px) {
+		padding-inline: 40px;
+	}
+
+	@media (max-width: 767px) {
+		padding-inline: 20px;
+	}
+}
+
+.btn {
+	padding: 15px 30px;
+	width: fit-content;
+	font-size: 1.125rem;
+	font-weight: 500;
+	transition: background-color 0.1s ease-in-out;
+
+	&-dark {
+		color: #fff;
+		background-color: #000;
+
+		&:hover {
+			background-color: #111;
+		}
+	}
+
+	&-light {
+		color: #000;
+		background-color: #fff;
+
+		&:hover {
+			background-color: #eee;
+		}
+	}
+}

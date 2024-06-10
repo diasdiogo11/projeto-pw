@@ -1,0 +1,41 @@
+.authentication {
+	.container {
+		display: flex;
+		align-items: start;
+		gap: 120px;
+		padding: 90px 120px;
+		border: 1px solid #ddddddee;
+		background-color: #ffffffee;
+	}
+
+	&__subtitle {
+		margin-bottom: 60px;
+	}
+
+	form {
+		width: 400px;
+	}
+}
+
+form {
+	width: 100%;
+
+	label {
+		display: block;
+		margin-bottom: 5px;
+		font-size: 1.125rem;
+	}
+
+	input,
+	textarea {
+		display: block;
+		margin-bottom: 60px;
+		padding-block: 10px;
+		border-bottom: 1px solid #000;
+		width: 100%;
+	}
+
+	button {
+		display: block;
+	}
+}
