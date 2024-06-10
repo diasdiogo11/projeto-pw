@@ -1,0 +1,55 @@
+.contact {
+    background-color: #ffffdd;
+
+    .container {
+        padding-block: 90px;
+    }
+
+    h2 {
+        margin-bottom: 5px;
+        font-size: 2rem;
+    }
+
+    form {
+        margin-top: 30px;
+    }
+}
+
+.about {
+    font-size: 1.5rem;
+    background-color: #f9f9f9;
+
+    .container {
+        padding-block: 60px;
+    }
+}
+form {
+	width: 100%;
+
+	label {
+		display: block;
+		margin-bottom: 5px;
+		font-size: 1.125rem;
+	}
+
+	input,
+	textarea {
+		display: block;
+		margin-bottom: 60px;
+		padding-block: 10px;
+		border-bottom: 1px solid #000;
+		width: 100%;
+	}
+
+	button {
+		display: block;
+	}
+}
+
+.gallery{
+	padding-block: 60px;
+	.carousel-inner{
+		height: 700px;
+	}
+
+}

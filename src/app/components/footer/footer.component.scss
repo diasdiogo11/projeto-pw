@@ -5,5 +5,11 @@ footer {
 
 	.container {
 		padding-block: 30px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		p{
+			margin-bottom: 0;
+		}
 	}
 }

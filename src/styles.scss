@@ -18,11 +18,14 @@ body {
 a {
 	display: inline-block;
 	color: inherit;
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
 p {
 	line-height: 1.5;
+	&:last-child {  
+		margin-bottom: 0 !important;
+	}
 }
 
 img {
@@ -32,6 +35,7 @@ img {
 
 ul {
 	list-style: none;
+	margin-bottom: 0 !important;
 }
 
 input,

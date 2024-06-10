@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { RouterLink, RouterOutlet, Router } from '@angular/router';
 
 @Component({
-  selector: 'app-museum',
+  selector: 'app-event',
   standalone: true,
   imports: [RouterLink, RouterOutlet],
-  templateUrl: './museum.component.html',
-  styleUrl: './museum.component.scss'
+  templateUrl: './event.component.html',
+  styleUrl: './event.component.scss'
 })
-export class MuseumComponent {
+export class EventComponent {
 
 }
