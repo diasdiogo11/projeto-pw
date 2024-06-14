@@ -1,91 +1,116 @@
 .hero {
-	background-color: #333;
-	background-image: url('../../../../assets/media/images/home/home-hero-bg.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	background-blend-mode: overlay;
-	background-attachment: fixed;
+  background-color: #333;
+  background-image: url("../../../../assets/media/images/home/home-hero-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-blend-mode: overlay;
+  background-attachment: fixed;
 
-	.container {
-		display: flex;
-		justify-content: center;
-		flex-direction: column;
-		min-height: 75vh;
-	}
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 75vh;
+  }
 
-	h1 {
-		margin-bottom: 15px;
-		color: #fff;
-		font-size: 4.5rem;
-		font-weight: 500;
-		line-height: 1.2;
-		max-width: 25ch;
-	}
+  h1 {
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 4.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    max-width: 25ch;
+  }
 
-	p {
-		color: #fff;
-		font-size: 1.125rem;
-	}
+  p {
+    color: #fff;
+    font-size: 1.125rem;
+  }
 
-	.btn {
-		margin-top: 30px;
-	}
+  .btn {
+    margin-top: 30px;
+  }
 }
 
 .contact {
-    background-color: #ffffdd;
+  background-color: #ffffdd;
 
-    .container {
-        padding-block: 90px;
-    }
+  .container {
+    padding-block: 90px;
+  }
 
-    h2 {
-        margin-bottom: 5px;
-        font-size: 2rem;
-    }
+  h2 {
+    margin-bottom: 5px;
+    font-size: 2rem;
+  }
 
-    form {
-        margin-top: 30px;
-    }
+  form {
+    margin-top: 30px;
+  }
 }
 
 .about {
-    font-size: 1.5rem;
-    background-color: #f9f9f9;
+  font-size: 1.5rem;
+  background-color: #f9f9f9;
 
-    .container {
-        padding-block: 60px;
-    }
+  .container {
+    padding-block: 60px;
+  }
 }
 form {
-	width: 100%;
+  width: 100%;
 
-	label {
-		display: block;
-		margin-bottom: 5px;
-		font-size: 1.125rem;
-	}
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.125rem;
+  }
 
-	input,
-	textarea {
-		display: block;
-		margin-bottom: 60px;
-		padding-block: 10px;
-		border-bottom: 1px solid #000;
-		width: 100%;
-	}
+  input,
+  textarea {
+    display: block;
+    margin-bottom: 60px;
+    padding-block: 10px;
+    border-bottom: 1px solid #000;
+    width: 100%;
+  }
 
-	button {
-		display: block;
-	}
+  button {
+    display: block;
+  }
 }
 
-.gallery{
-	padding-block: 60px;
-	.carousel-inner{
-		height: 700px;
-	}
+.gallery {
+  .container {
+    display: flex;
+    flex-direction: row;
+    padding-block: 60px;
+    gap: 30px;
+    vertical-align: top;
+    h2 {
+      margin-bottom: 5px;
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1.3rem;
+    }
 
+    .pieces_description {
+      max-width: 50%;
+    }
+
+    #carouselControls {
+      max-width: 50%;
+      .carousel-inner {
+        height: 400px;
+      }
+    }
+  }
 }
 
+.location {
+  h2 {
+    padding-top: 20px;
+  }
+}

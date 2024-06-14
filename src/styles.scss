@@ -1,41 +1,41 @@
 *,
 *::after,
 *::before {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	-webkit-tap-highlight-color: transparent;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
 }
 
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-	font-family: system-ui, sans-serif;
+  font-family: system-ui, sans-serif;
 }
 
 a {
-	display: inline-block;
-	color: inherit;
-	text-decoration: none !important;
+  display: inline-block;
+  color: inherit;
+  text-decoration: none !important;
 }
 
 p {
-	line-height: 1.5;
-	&:last-child {  
-		margin-bottom: 0 !important;
-	}
+  line-height: 1.5;
+  &:last-child {
+    margin-bottom: 0 !important;
+  }
 }
 
 img {
-	display: inline-block;
-	max-width: 100%;
+  display: inline-block;
+  max-width: 100%;
 }
 
 ul {
-	list-style: none;
-	margin-bottom: 0 !important;
+  list-style: none;
+  margin-bottom: 0 !important;
 }
 
 input,
@@ -43,61 +43,66 @@ textarea,
 button,
 select,
 option {
-	border: 0;
-	border-radius: 0;
-	outline: 0;
-	box-shadow: none;
-	font-family: inherit;
-	font-size: inherit;
-	font-weight: inherit;
-	color: inherit;
-	background-color: inherit;
+  border: 0;
+  border-radius: 0;
+  outline: 0;
+  box-shadow: none;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  color: inherit;
+  background-color: inherit;
 }
 
 textarea {
-	resize: vertical;
+  resize: vertical;
 }
 
 button {
-	cursor: pointer;
+  cursor: pointer;
+}
+
+iframe {
+  width: 300px;
+  height: 300px;
 }
 
 .container {
-	margin-inline: auto;
-	padding-inline: 60px;
-	max-width: 1600px;
+  margin-inline: auto;
+  padding-inline: 60px;
+  max-width: 1600px;
 
-	@media (max-width: 1024px) {
-		padding-inline: 40px;
-	}
+  @media (max-width: 1024px) {
+    padding-inline: 40px;
+  }
 
-	@media (max-width: 767px) {
-		padding-inline: 20px;
-	}
+  @media (max-width: 767px) {
+    padding-inline: 20px;
+  }
 }
 
 .btn {
-	padding: 15px 30px;
-	width: fit-content;
-	font-size: 1.125rem;
-	font-weight: 500;
-	transition: background-color 0.1s ease-in-out;
+  padding: 15px 30px;
+  width: fit-content;
+  font-size: 1.125rem;
+  font-weight: 500;
+  transition: background-color 0.1s ease-in-out;
 
-	&-dark {
-		color: #fff;
-		background-color: #000;
+  &-dark {
+    color: #fff;
+    background-color: #000;
 
-		&:hover {
-			background-color: #111;
-		}
-	}
+    &:hover {
+      background-color: #111;
+    }
+  }
 
-	&-light {
-		color: #000;
-		background-color: #fff;
+  &-light {
+    color: #000;
+    background-color: #fff;
 
-		&:hover {
-			background-color: #eee;
-		}
-	}
+    &:hover {
+      background-color: #eee;
+    }
+  }
 }
